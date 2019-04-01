@@ -10,7 +10,6 @@ These types of resources are supported:
 
 ## Usage
 
-```hcl
 module "redshift" {
   source  = "terraform-aws-modules/redshift/aws"
 
@@ -100,13 +99,3 @@ module "redshift" {
 | this\_redshift\_parameter\_group\_id | The ID of Redshift parameter group created by this module |
 | this\_redshift\_subnet\_group\_id | The ID of Redshift subnet group created by this module |
 
-<!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
-
-## Authors
-
-Migrated from `terraform-community-modules/tf_aws_redshift`, where it was originally created by [Quentin Rousseau](https://github.com/kwent) and maintained by [these awesome contributors](https://github.com/terraform-community-modules/tf_aws_redshift/graphs/contributors).
-Module managed by [Anton Babenko](https://github.com/antonbabenko).
-
-## License
-
-Apache 2 Licensed. See LICENSE for full details.
